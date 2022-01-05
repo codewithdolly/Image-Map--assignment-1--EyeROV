@@ -1,0 +1,16 @@
+
+.app{
+margin: auto;
+.tab{
+    text-decoration: none;
+    background-color: rgba(255, 166, 0, 0.534);
+    border-radius: 10px;
+    font-size: 16px;
+    margin: 5px;
+    margin-top: 3rem;
+    &:hover{
+        color: rgb(238, 4, 4);
+       background-color: rgba(82, 233, 22, 0.445);
+    }
+}
+}
