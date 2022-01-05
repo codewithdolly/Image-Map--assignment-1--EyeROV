@@ -16,7 +16,8 @@ const imgObj = [
 ];
 
 const ImgMap = () => {
-  const [isShown, setIsShown] = useState(false);
+  const [shown, setShown] = useState(false);
+  const [creater, setCreator] = useState(false);
 
   return (
     <>
@@ -31,13 +32,19 @@ const ImgMap = () => {
                   coords={obj.coords}
                   href="#"
                   alt={obj.title}
-                  onMouseEnter={() => setIsShown(true)}
-                  onMouseLeave={() => setIsShown(false)}
+                  onMouseEnter={() => setShown(true)}
+                  onMouseLeave={() => setShown(false)
+                  }
+                //   onMouseEnter={() => setCreator(true)}
+                //   onMouseLeave={() => setCreator(false)}
+
                 />
-                {isShown && <div>{obj.title}</div>}
+                {shown && <div>{obj.title}</div>}
+               
               </>
             );
           })}
+           {/* {creater && <div>Crater - at location 1</div>} */}
         </map>
       </div>
     </>
