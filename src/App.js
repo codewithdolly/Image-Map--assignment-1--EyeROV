@@ -1,12 +1,14 @@
 import React from 'react';
 import './App.scss';
-import { ImgMap } from './Components';
+import { Form, ImgMap } from './Components';
 
 function App() {
   return (
     <>
     <div className="App">
+
      <ImgMap />
+     <Form />
     </div>
     </>
   );
