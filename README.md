@@ -15,10 +15,11 @@ Step 1: Created React App
 Step 2: creates sass
 Step 3: Pushed assignment's folder to Github
 Step 4: Added Images and given objects
-Step 5: Added image map using map function
+Step 5: Added image map using map function from given JSON data.
+Step 6: EyeROV Favicon added.
 
 
-
+# General React Documentation Starts
 
 # Getting Started with Create React App
 
