@@ -5,7 +5,7 @@ Stage: Interview
 
 
 # Deployment Steps:
-Step 1: git clone https://github.com/hcmay2021-Dolly/interview--assignment--eyerov.git
+Step 1: git clone https://github.com/hcmay2021-Dolly/Image-Map--assignment-1--EyeROV
 Step 2: npm install
 Step 3: npm start
 
