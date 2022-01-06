@@ -1,3 +1,25 @@
+# Metadata
+Company: EyeROV
+Problem: Assignment 1 
+Stage: Interview
+
+
+# Deployment Steps:
+Step 1: git clone https://github.com/hcmay2021-Dolly/interview--assignment--eyerov.git
+Step 2: npm install
+Step 3: npm start
+
+
+# Development Steps:
+Step 1: Created React App
+Step 2: creates sass
+Step 3: Pushed assignment's folder to Github
+Step 4: Added Images and given objects
+Step 5: Added image map using map function
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -67,17 +89,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-
-
-
-Assignment Test from EyeROV.
-
-Step1: Create React App.
-Step2: create sass.
-Step3: Pushed assignment's folder to Github.
-Step4: Added Images and given objects.
-Step5:
-Step6:
-Step7:

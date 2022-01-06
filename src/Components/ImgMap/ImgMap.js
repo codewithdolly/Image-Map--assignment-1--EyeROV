@@ -16,9 +16,6 @@ const imgObj = [
 ];
 
 const ImgMap = () => {
-  const [shown, setShown] = useState(false);
-  const [creater, setCreator] = useState(false);
-
   return (
     <>
       <div className="imgMap">
@@ -33,17 +30,10 @@ const ImgMap = () => {
                   href="#"
                   title={obj.title}
                   alt={obj.title}
-                  onMouseEnter={() => setShown(true)}
-                  onMouseLeave={() => setShown(false)
-                  
-                  }
-
                 />
-               
               </>
             );
           })}
-
         </map>
       </div>
     </>
