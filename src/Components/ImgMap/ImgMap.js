@@ -31,20 +31,19 @@ const ImgMap = () => {
                   shape={obj.shape}
                   coords={obj.coords}
                   href="#"
+                  title={obj.title}
                   alt={obj.title}
                   onMouseEnter={() => setShown(true)}
                   onMouseLeave={() => setShown(false)
+                  
                   }
-                //   onMouseEnter={() => setCreator(true)}
-                //   onMouseLeave={() => setCreator(false)}
 
                 />
-                {shown && <div>{obj.title}</div>}
                
               </>
             );
           })}
-           {/* {creater && <div>Crater - at location 1</div>} */}
+
         </map>
       </div>
     </>
